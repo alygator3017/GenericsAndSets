@@ -57,11 +57,26 @@ public class Challenge3 {
             if(listOfThings.get(i).getClass() == common.Dog.class){
                 Dog d = (Dog) listOfThings.get(i);
                 System.out.println("Rabies ID: " + d.getRabiesId() + ", Name: " + d.getName() );
+                System.out.println(d);
             }else if(listOfThings.get(i).getClass() == common.Employee.class){
                 Employee e = (Employee) listOfThings.get(i);
                 System.out.println("Name: " + e.getLastName() + ", " + e.getFirstName() + ", SSN: " + e.getSsn());
+                System.out.println(e);
             }else{
                 System.out.println(listOfThings.get(i).toString());
+            }
+        }
+        
+        
+        //class ex
+        for(int i = 0; i < listOfThings.size(); i++){
+            Object obj = listOfThings.get(i);
+            if(obj instanceof Employee){
+                Employee e = (Employee)obj;
+                System.out.println(e);
+            }else if(obj instanceof Dog){
+                Dog d = (Dog)obj;
+                System.out.println(d);
             }
         }
         
