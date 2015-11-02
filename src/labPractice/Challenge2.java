@@ -16,15 +16,15 @@ public class Challenge2 {
         
         
         
-        List<Employee> employee = new ArrayList<Employee>();
+        List<Employee> employees = new ArrayList<Employee>();
         
 //        Employee(int empID, String lastName, String firstName, String ssn)
         
-        employee.add(e1);
-        employee.add(e2);
-        employee.add(e3);
+        employees.add(e1);
+        employees.add(e2);
+        employees.add(e3);
         
-        for(Employee em : employee){
+        for(Employee em : employees){
             System.out.println(em.getFirstName() + " " + em.getLastName() + ", SSN: " + em.getSsn());
         }
     }

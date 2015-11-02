@@ -30,7 +30,7 @@ public class Challenge4 {
 
         //As long as equals and hashcode methods are overriden, it will get rid
         //of any duplicates. I overrode the SSN since some people could have the 
-        //same names but no be the same people. 
+        //same names but not be the same people. 
         for (Employee e : emps) {
             System.out.println(e);
         }

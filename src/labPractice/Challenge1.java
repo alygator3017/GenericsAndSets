@@ -29,7 +29,7 @@ public class Challenge1 {
             System.out.println(h);
         }
         
-        hobbies.remove("Meditation");
+        hobbies.remove(4);
         hobbies.remove("Web Development");
         
         System.out.println("\n");
