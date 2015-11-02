@@ -1,7 +1,9 @@
 package labPractice;
 
 import common.Employee;
+import java.util.ArrayList;
 import java.util.LinkedHashSet;
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -34,6 +36,13 @@ public class Challenge4 {
         for (Employee e : emps) {
             System.out.println(e);
         }
+        
+        List<Employee> employees = new ArrayList<Employee>(emps);
+        
+        for (Employee e : employees){
+            System.out.println(e);
+        }
+        
     }
 
 }
